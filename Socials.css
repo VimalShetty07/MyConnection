@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+  }
+  ul{
+    display: flex;
+  }
+  
+  ul li{
+    position: relative;
+    display: block;
+    color: rgb(184, 183, 183);
+    font-size: 35px;
+    height: 70px;
+    width: 70px;
+    background: #171515;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .logo{
+    height: 50px;
+  }
+  ul a li:before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: inherit;
+    width: inherit;
+    /* background: #d35400; */
+    border-radius: 50%;
+    transform: scale(.9);
+    z-index: -1;
+    transition: .5s;
+  }
+  ul a .github:before{
+    background: #6e5494;
+  }
+
+
+  ul a .twitter:before{
+    background: #00acee ;
+  }
+  ul a .l1:before{
+    background: linear-gradient(#5851db, #833ab4, #c13584, #e1306c, #fd1d1d) 
+  }
+  ul a .l2:before{
+    background: #0e76a8;
+  }
+  ul a .l3:before{
+    background: #738ADB;
+  }
+  ul a .l4:before{
+    background: #128C7E;
+  }
+  ul a .l5:before{
+    background: #0088cc;
+  }
+  ul a .l6:before{
+    background: #ff00ff;
+  }
+  ul a .l7:before{
+    background: #fffb00;
+  }
+  ul a li:hover:before{
+    filter: blur(3px);
+    transform: scale(1.2);
+    /* box-shadow: 0 0 15px #d35400; */
+  }
+  ul a .github:hover:before{
+    box-shadow: 0 0 15px #6e5494;
+  }
+  ul a .twitter:hover:before{
+    box-shadow: 0 0 15px #00acee;
+  }
+  ul a .l1:hover:before{
+    box-shadow: 0 0 15px linear-gradient(#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  ul a .l2:hover:before{
+    box-shadow: 0 0 15px #0e76a8;
+  }
+  ul a .l3:hover:before{
+    box-shadow: 0 0 15px #738ADB;
+  }
+  ul a .l4:hover:before{
+    box-shadow: 0 0 15px #128C7E;
+  }
+  ul a .l5:hover:before{
+    box-shadow: 0 0 15px #0088cc;
+  }
+  ul a .l6:hover:before{
+    box-shadow: 0 0 15px #ff00ff;
+  }
+  ul a .l7:hover:before{
+    box-shadow: 0 0 15px #fffb00;
+  }
+  ul a .github:hover{
+    color: #6e5494;
+    box-shadow: 0 0 15px #6e5494;
+    text-shadow: 0 0 15px #6e5494;
+  }
+  ul a .twitter:hover{
+    color: #00acee;
+    box-shadow: 0 0 15px #00acee;
+    text-shadow: 0 0 15px #00acee;
+  }
+  ul a .l1:hover{
+    color: rgb(201, 25, 218);
+    box-shadow: 0 0 15px linear-gradient(#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    text-shadow: 0 0 15px linear-gradient(#5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  }
+  ul a .l2:hover{
+    color: #0e76a8;
+    box-shadow: 0 0 15px #0e76a8;
+    text-shadow: 0 0 15px #0e76a8;
+  }
+  ul a .l3:hover{
+    color: #738ADB;
+    box-shadow: 0 0 15px #738ADB;
+    text-shadow: 0 0 15px #738ADB;
+  }
+  ul a .l4:hover{
+    color: #128C7E;
+    box-shadow: 0 0 15px #128C7E;
+    text-shadow: 0 0 15px #128C7E;
+  }
+  ul a .l5:hover{
+    color: #0088cc;
+    box-shadow: 0 0 15px #0088cc;
+    text-shadow: 0 0 15px #0088cc;
+  }
+  ul a .l6:hover{
+    color: #ff00ff;
+    box-shadow: 0 0 15px #ff00ff;
+    text-shadow: 0 0 15px #ff00ff;
+  }
+  ul a .l7:hover{
+    color: #fffb00;
+    box-shadow: 0 0 15px #fffb00;
+    text-shadow: 0 0 15px #fffb00;
+  }
+  /* ul li:hover{
+    color: #ffa502;
+    box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;
+  } */
